@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from streamlit_drawable_canvas import st_canvas
 
 # Load the pre-trained model
-model = load_model(r'C:\Users\Dev Patel\Documents\Collage_files\Data Science subjects\DL\project.h5')
+model = load_model(r'project.h5')
 
 # Set up Streamlit layout
 st.title("Handwritten Digit Recognition")
